@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Hari137
-- 👀 I’m interested in Programming
-- 🌱 I’m currently learning java, java script and React native designing
-- 💞️ I’m looking to collaborate on IBM
+- 👋 Hi, I’m Hariharan Code Name: Demitri
+- 👀 I’m interested in web development and Machine learning.
+- 🌱 I’m currently learning front end web deveolpment and machine leraning topics
+- 💞️ I’m looking to collaborate on my interest
 - 📫 How to reach me nuhari75@gmail.com or 8838165768
 
 <!---

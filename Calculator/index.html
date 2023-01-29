@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <table class="calculator">
+        <tr>
+            <td colspan="3"> <input class="display-box" aria-label="Open" type="text" id="result" disabled /> </td>
+            <!-- clearScreen() function clears all the values -->
+            <td> <input type="button" value="C" aria-label="Open" onclick="clearScreen()" id="btn" /> </td>
+            </tr>
+      <tr>		
+      	<td><input type="button" value="1" aria-label="Open" onclick="display('1')"/></td>
+        <td><input type="button" value="2" aria-label="Open" onclick="display('2')"/></td>
+        <td><input type="button" value="3" aria-label="Open" onclick="display('3')"/></td>
+        <td><input type="button" value="/" aria-label="Open" onclick="display('/')"/></td>
+      </tr>
+      <tr>
+      	<td><input type="button" value="4" aria-label="Open" onclick="display('4')"/></td>
+        <td><input type="button" value="5" aria-label="Open" onclick="display('5')"/></td>
+        <td><input type="button" value="6" aria-label="Open" onclick="display('6')"/></td>
+        <td><input type="button" value="-" aria-label="Open" onclick="display('-')"/></td>
+      </tr>
+      <tr>
+      	<td><input type="button" value="7" aria-label="Open" onclick="display('7')"/></td>
+        <td><input type="button" value="8" aria-label="Open" onclick="display('8')"/></td>
+        <td><input type="button" value="9" aria-label="Open" onclick="display('9')"/></td>
+        <td><input type="button" value="+" aria-label="Open" onclick="display('+')"/></td>
+      </tr>
+      <tr>
+      	<td><input type="button" value="." aria-label="Open" onclick="display('.')"/></td>
+        <td><input type="button" value="0" aria-label="Open" onclick="display('0')"/></td>
+        <td><input type="button" value="=" aria-label="Open" onclick="calculate()" id="btn"/></td>
+        <td><input type="button" value="*" aria-label="Open" onclick="display('*')"/></td>
+      </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

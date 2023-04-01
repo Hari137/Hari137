@@ -1,0 +1,343 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+::-webkit-scrollbar {
+    width: 1.5vw;
+   
+}
+  
+::-webkit-scrollbar-track {
+    background: black; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #4a4a4a;  
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: crimson;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#section1{
+  width: auto;
+  height: auto;
+}
+
+#video{
+  background-repeat: no-repeat;
+  position: absolute;
+  right:0;
+  left:0;
+  bottom: auto;
+  display: flexbox;
+  z-index: -1;
+  object-fit: cover;
+}
+
+body{
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    opacity: 0;
+    transition: opacity 1s;
+    display: flexbox;
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    margin-left: -5vw;
+    margin-right: -3vw;
+    padding-left: -1vw;
+    padding-right: 1vw;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: 0.2vw;
+    width: 40vw; 
+}
+
+#redborder:before { 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: -35px;
+    width: 0; 
+    height: 0; 
+    border-top: 40px solid #231f20; 
+    border-bottom: 40px solid #231f20; 
+    border-left: 35px solid transparent;
+  
+  }
+
+#redborder{
+    width: 1vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 0.9vw;
+    padding-right: 20vw;
+    margin: 0;
+    overflow: hidden;
+    background-color: crimson;
+    position:absolute;
+    top:0;
+    right:0;
+    content: '';
+    border-top: 3vw solid crimson;
+    border-left: 0vw solid black;
+    border-bottom: 2vw solid crimson;
+
+}
+
+.firsttile{
+    font-size:large;
+    font-family:inherit;
+    font-size: 3.8vw;
+    color: #FFFFFF;
+    width: 23%;
+    padding-left: 2vw;
+    padding-top: 0.7vw;
+    padding-bottom: 2vw;
+    margin: 0;
+    padding-right: 70vw;
+    overflow: hidden;
+    background-color: black;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+}
+
+h2{
+    padding-top: 40px;
+    padding-left:10%; 
+    font-size: 4vw;
+    align-items: center;
+}
+
+h3{
+    padding-left:5%;
+    font-size: 3vw;
+    align-items:center;
+}
+
+.menu-list{
+    display:inline-block;
+    color: white;
+    text-align: center;
+    padding: 1.1vw 1vw;
+    text-decoration: none;
+    font-family: inherit;
+    margin-top:7vw;
+    overflow: hidden;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+a{
+    font-size: 1.4vw;
+}
+
+.menu a:hover {
+    background-color:crimson;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+html {
+  background: rgb(41, 41, 41);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(41, 41, 41, 1) 0%,
+    rgba(24, 30, 48, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#181e30",GradientType=1);
+  height: 100%;
+  width: 100%;
+}*/
+
+.soc-icons {
+  font-family: "Merriweather", serif;
+  font-size: v2w;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  color: #eee;
+  font-size: 2.5vw;
+}
+
+.icons-list {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -1vw;
+  list-style-type: none;
+  
+}
+
+.icons-list li {
+  padding: 1.7vw;
+  display: inline-flex;
+  z-index: -1;
+}
+
+.fa {
+  font-size: 20vw;
+}
+
+
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-codepen,
+.fa-instagram,
+.fa-github{
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #1877f2;
+  transform: scale(2.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #bd2250;
+  transform: scale(2.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(2.1);
+}
+
+.fa-codepen:hover,
+.fa-codepen:focus {
+  color: #000;
+  transform: scale(2.1);
+}
+
+
+/*.description{
+    justify-content:left;
+    text-align: justify;
+}*/
+
+.mydescription{
+    display: inline-block;
+    top: auto;
+    left: auto;
+    font-size: 1.3vw;
+    text-align: center;
+    justify-content: left;
+    padding-left: 2vw;
+    margin-right: 45vw;
+    padding-bottom: 2vw;
+    overflow: hidden;
+}
+
+/*about me button
+.aboutme{
+    display: inline-block;
+    border-radius: 60px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: inherit;
+    font-size: 2vw;
+    padding: 1vw;
+    width: 40vw;
+    height: 10vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2vw;   
+    position: absolute;
+    top: 30vw;
+    left: 13vw;
+}
+
+.aboutme span {
+    cursor: pointer;
+    display: inline-block;
+    position: static;
+    transition: 0.5s;
+    
+}
+  
+.aboutme span:after {
+    content: '\00bb';
+    position: static;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.aboutme:hover span{
+   padding-right: 25px;
+}
+
+.aboutme:hover{
+  background-color: crimson;
+}
+  
+.aboutme:hover span:after {
+   opacity: 1;
+   right: 0;
+}*/
+
+
+#section2{
+    width:100%; 
+    height:100%; 
+    position: absolute;
+    top:100%;
+    z-index: -1;
+    text-align:justify;
+    padding-top:6vw;
+    padding-right: 2vw;
+    margin-top: 20vw;
+}
+
+/*.aboutdes{
+    display: inline-block;
+    top: auto;
+    left: auto;
+    font-size: 1.3vw;
+    text-align: center;
+    justify-content: left;
+    padding-left: 2vw;
+    margin-right: 45vw;
+    padding-bottom: 2vw;
+    overflow: hidden;
+}*/
